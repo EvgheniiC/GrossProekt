@@ -6,7 +6,7 @@ import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
-public class Rezept {
+public class MainRezept {
     public static void main(String[] args) {
      init();
         System.out.println(Text.get("Menu-HELP"));

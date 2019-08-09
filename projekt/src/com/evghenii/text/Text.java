@@ -10,7 +10,22 @@ final public class Text {
         date.put("MENU-Auswahl","Выбор");
 
 
+        date.put("ERROR_Rezept_Exist "," schon Exestiert ");
+        date.put("ERROR_Rezept_Empty "," ist Leer ");
+        date.put("ERROR_Rezept_Date_Format ","Falsche Data ");
+        date.put("ERROR_Rezept_Unkorrekt_Liter","Unkorrektes Eingabe Liter ");
+        date.put("ERROR_Rezept_Unkorrekt_Gram ","Unkorrektes Eingabe Gramm ");
+        date.put("ERROR_Rezept_Unkorrekt_Loffel ","Unkorrektes Eingabe Loffel ");
+        date.put("ERROR_Rezept_Unkorrekt_Ingridient ","Unkorrektes Eingabe Ingridient ");
+
+
+
+
     }
+
+
+
+
 
     public static String get(String key){
        return date.get(key);
